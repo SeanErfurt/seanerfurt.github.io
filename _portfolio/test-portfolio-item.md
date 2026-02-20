@@ -1,6 +1,6 @@
 ---
-title: "First PLAntweight Combat Robot"
-excerpt: "The path to NHRL begins with a single step."
+title: "My First PLAntweight Combat Robot"
+excerpt: "The path to NHRL championships begins with a single step."
 header:
   image: /assets/images/Finished_Robot.jpg
   teaser: /assets/images/Robot_thumb.jpg
@@ -23,31 +23,42 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-Let me walk you my journey of building a small, 1-pound (or 454-gram) robot, often called an "Antweight" or "Plastic Antweight." This is the perfect place to start, as it lets you learn all the core skills without a massive investment in parts.
+Let me walk you through my journey of building a small, 1-pound (or 454-gram) robot, often called a "PLAntweight" or "Plastic Antweight" bot. This is the perfect place to start, as it lets me learn all the core skills without a massive investment in parts.
 
-<h1>Phase 1: Planning, Printing, and Sourcing Parts</h1>
+<h2>Phase 1: Planning and Sourcing Parts</h2>
 
-Before even picking up a soldering iron, I first needed to choose a design. It's highly recommended to use a proven, open-source design, so I went with the "Force Knight" provided by [Team Malice](http://url-you-want-linked). Their designs are meant to work with the [SCAR PLANT Drive Kit](https://turnabot.com/products/scar-plant-turnakit) offered by Turnabot, simplifying the parts-sourcing task, and ensuring compliance with the SCAR tournament rules.
+![image-FK](/assets/images/Force_Knight.png){: .align-right}
+
+Before even picking up a soldering iron, I first needed to choose a design. It's highly recommended to use a proven, open-source design, so I went with the "Force Knight" provided by [Team Malice](https://teammalice.com/index.php/scar-kit-and-spares/scar-plastic-antweight-electronics-kit/). Their designs are meant to work with the [SCAR PLANT Drive Kit](https://turnabot.com/products/scar-plant-turnakit) offered by Turnabot, and they offer a standard SCAR spinner weapon kit too, simplifying the parts-sourcing task, and ensuring compliance with the SCAR tournament rules.
+
+<h2>Phase 2: Printing the Rest</h2>
 
 The SCAR PLAntweight class rules restrict us to PLA and PLA+, and we will be using both. The spinner weapon is printed solid out of PLA+. I experimented with using 99% concentric infill vs. using 100 perimeters/walls. Both printed fine but 99% concentric was more dimensionally accurate. We'll see which one is stronger! For the armor, I'm trying out different colors/formulations of PLA. The red is PLA-HS, which is stiffer and lighter, but may shatter more easily. It will be interesting to see which is better suited for the job!
 
 ...image...
 
-<h2>Phase 2: Soldering and Wiring</h2>
+<h2>Phase 3: Soldering and Wiring</h2>
+
+![image-wires](/assets/images/Malenki_wiring_diagram.png){: .align-center}
 
 This is where we bring the electronics to life. First we build the Main Power Harness.
 This is the central trunk of your robot's electrical system.
 
-  >Prepare the Battery Lead: Solder your female XT30 connector to a length of red and black wire (about 4-6 inches). Crucially, slide a piece of heatshrink tubing onto each wire before soldering the connector! Once the joint is cool, slide the tubing over the exposed metal and shrink it with a heat gun (or careful use of a lighter) to prevent short circuits .
+1. Prepare the Battery Lead: Solder your female JST connector's black wire to the board where it's labelled "- PWR" on the Malenki board. Remember to slide a piece of heatshrink tubing onto each wire before soldering the connector! Once the joint is cool, slide the tubing over the exposed metal and shrink it with a heat gun to prevent short circuits.
 
-  Wire the Power Switch: Solder the red wire from your XT30 lead to one tab of the power switch. Solder the red wire that will go to your electronics (see step 3) to the other tab. The switch will now interrupt the positive power flow, acting as a master on/off .
+2. Wire the Power Switch: Solder the red wire from your JST lead to one tab of the power switch. Solder a red wire that will go to the Malenki's "+" pad to the other tab. The switch will now interrupt the positive power flow, conforming to safety rules.
 
-> Step 3: Solder Motors to Malenki Board
-  Solder the two wires from one motor to the output pads on one of your tinyESCs. The polarity (which wire goes where) will determine which way the motor spins. You can swap them later if needed .
+3. Solder Motors to Malenki Board
+Solder two wires from one N20 motor to another. Then solder another 2 wires to the corresponding output pads (L, R) on the board. Repeat for the other side. Once assembled, we can test the motors and switch polarities if they are spinning in the wrong direction. I used [Team Run Amok's Combat Robot Mixer Fixer](http://runamok.tech/RunAmok/mixfix4.html) program to help diagnose my mixing issues. We also solder some 2mm banana connectors to connect our brushless weapon motor to the brushless ESC. Lastly we connect the red and black ESC wires to the Malenki "W" pads, and run the white ESC signal wire to the lower PWM pad.
 
-<h3>Repeat for the second motor and ESC.</h3>
+<h2>Phase 4: Assembly and Testing</h2>
 
+![full](/assets/images/Robot_inside.jpg){: .full}
+
+Team Malice already did a great job documenting the assembly process for Force Knight, so I will just [link that here](https://instructions.online/?id=10785-force%20knight%20-%20updated).
 
 ...Text about the finished project...
+
+![image-center](/assets/images/Finished_Robot.jpg){: .align-center}
 
 ...include the video...
