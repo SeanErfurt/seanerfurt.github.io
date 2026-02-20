@@ -1,9 +1,9 @@
 ---
-title: "Solving my allergy problems the DIY way"
+title: "Solving my Allergy Problems the DIY Way"
 excerpt: "CR boxes are good for more than Covid-19."
 header:
   image: /assets/images/Finished_Filter.jpg
-  teaser: /assets/images/Finished_Filter.jpg
+  teaser: /assets/images/Filter_thumb.jpg
 sidebar:
   - title: "Corsi-Rosenthal (CR) Box"
     #image: http://placehold.it/350x250
@@ -23,6 +23,6 @@ gallery:
     alt: "final"
 ---
 
-{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the case fans and filters I bought." %}
+{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the fans and filters I bought." %}
 
 [General build instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)

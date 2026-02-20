@@ -13,13 +13,13 @@ sidebar:
   #  text: "Longer Description"
 gallery:
   - url: /assets/images/print1.jpg
-    image_path: assets/images/print1.jpg
+    image_path: assets/images/print1.png
     alt: "Spinner & Mount"
   - url: /assets/images/print2.jpg
-    image_path: assets/images/print2.jpg
+    image_path: assets/images/print2.png
     alt: "Armor"
   - url: /assets/images/print3.jpg
-    image_path: assets/images/print3.jpg
+    image_path: assets/images/print3.png
     alt: "Spinner2"
 ---
 
