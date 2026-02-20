@@ -24,6 +24,6 @@ gallery:
     alt: "final"
 ---
 
-{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the fans and filters I bought. Finished with a smart plug to schedule via bluetooth or shut off externally" %}{: .full}
+{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the fans and filters I bought. Finished with a smart plug to schedule via bluetooth or shut off externally." %}
 
 [General build instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)
