@@ -14,15 +14,15 @@ sidebar:
 gallery:
   - url: /assets/images/Filter_hack.jpg
     image_path: assets/images/Filter_hack.jpg
-    alt: "placeholder image 1"
+    alt: "paperclip"
   - url: /assets/images/Filter_inside.jpg
     image_path: assets/images/Filter_inside.jpg
-    alt: "placeholder image 2"
+    alt: "inside"
   - url: /assets/images/Finished_Filter.jpg
     image_path: assets/images/Finished_Filter.jpg
-    alt: "placeholder image 3"
+    alt: "final"
 ---
 
-{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing the PC power supply to turn on without a motherboard signal, and power the case fans via Molex" %}
+{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the case fans and filters I bought." %}
 
-[Instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)
+[General build instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)
