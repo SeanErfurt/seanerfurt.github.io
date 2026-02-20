@@ -9,7 +9,5 @@ main:
     url: /portfolio/  
   - title: "About"
     url: /about/
-  - title: "All Projects"
-    url: /all/
-  - title: "Posts (DEV ONLY)"
+  - title: "News"
     url: /posts/
