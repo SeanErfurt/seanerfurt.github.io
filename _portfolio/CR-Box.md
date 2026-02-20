@@ -11,6 +11,7 @@ sidebar:
     text: "An effective, low-cost DIY air purifier"
   #- title: "Second Heading"
   #  text: "Longer Description"
+classes: wide
 gallery:
   - url: /assets/images/Filter_hack.jpg
     image_path: assets/images/Filter_hack.jpg
@@ -18,11 +19,11 @@ gallery:
   - url: /assets/images/Filter_inside.jpg
     image_path: assets/images/Filter_inside.jpg
     alt: "inside"
-  - url: /assets/images/Finished_Filter.jpg
-    image_path: assets/images/Finished_Filter.jpg
+  - url: /assets/images/Finished_Filter_Full.jpg
+    image_path: assets/images/Finished_Filter_Full.jpg
     alt: "final"
 ---
 
-{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the fans and filters I bought." %}
+{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing my old PC power supply to turn on without a motherboard signal, and power the case fans via Molex. Everything else is 3D-printed in PLA or TPU, including the top panel I designed to fit the fans and filters I bought." %}{: .full}
 
 [General build instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)

@@ -33,7 +33,7 @@ Before even picking up a soldering iron, I first needed to choose a design. It's
 
 <h2>Phase 2: Printing the Rest</h2>
 
-{% include gallery %}
+{% include gallery %}{: .full}
 
 The SCAR PLAntweight class rules restrict us to PLA and PLA+, and we will be using both. The spinner weapon is printed solid out of PLA+. I experimented with using 99% concentric infill vs. using 100 perimeters/walls. Both printed fine but 99% concentric was more dimensionally accurate. We'll see which one is stronger! For the armor, I'm trying out different colors/formulations of PLA. The red is PLA-HS, which is stiffer and lighter, but may shatter more easily. It will be interesting to see which filament is better suited for the job!
 
@@ -43,17 +43,11 @@ The SCAR PLAntweight class rules restrict us to PLA and PLA+, and we will be usi
 
 This is where we bring the electronics to life. It's important to lay everything out using your chassis so that you can cut your wires to length (with a little extra to spare). I also tried several methods to make the connections modular, durable, and easy to repair too.
 
-1. Prepare the Battery Lead: 
+1. Prepare the Battery Lead: Solder your female JST connector's black wire to the board where it's labelled "- PWR" on the Malenki board. Remember to slide a piece of heatshrink tubing onto each wire before soldering the connector! Once the joint is cool, slide the tubing over the exposed metal and shrink it with a heat gun to prevent short circuits.
 
-Solder your female JST connector's black wire to the board where it's labelled "- PWR" on the Malenki board. Remember to slide a piece of heatshrink tubing onto each wire before soldering the connector! Once the joint is cool, slide the tubing over the exposed metal and shrink it with a heat gun to prevent short circuits.
+2. Wire the Power Switch: Solder the red wire from your JST lead to one tab of the power switch. Solder a red wire that will go to the Malenki's "+" pad to the center tab. The switch will now interrupt the positive power flow, conforming to safety rules.
 
-2. Wire the Power Switch: 
-
-Solder the red wire from your JST lead to one tab of the power switch. Solder a red wire that will go to the Malenki's "+" pad to the center tab. The switch will now interrupt the positive power flow, conforming to safety rules.
-
-3. Solder Motors to Malenki Board: 
-
-Solder two wires from one N20 motor to another. Then solder another 2 wires to the corresponding output pads (L, R) on the board. Repeat for the other side. Once assembled, we can test the motors and switch polarities if they are spinning in the wrong direction. I used [Team Run Amok's Combat Robot Mixer Fixer](http://runamok.tech/RunAmok/mixfix4.html) program to help diagnose my mixing issues. We also solder some 2mm banana connectors to connect our brushless weapon motor to the brushless ESC. Lastly we connect the red and black ESC wires to the Malenki "W" pads (I used eyelets with nyloc nuts here), and run the white ESC signal wire to the lower PWM pad.
+3. Solder Motors to Malenki Board: Solder two wires from one N20 motor to another. Then solder another 2 wires to the corresponding output pads (L, R) on the board. Repeat for the other side. Once assembled, we can test the motors and switch polarities if they are spinning in the wrong direction. I used [Team Run Amok's Combat Robot Mixer Fixer](http://runamok.tech/RunAmok/mixfix4.html) program to help diagnose my mixing issues. We also solder some 2mm banana connectors to connect our brushless weapon motor to the brushless ESC. Lastly we connect the red and black ESC wires to the Malenki "W" pads (I used eyelets with nyloc nuts here), and run the white ESC signal wire to the lower PWM pad.
 
 <h2>Phase 4: Assembly and Testing</h2>
 
