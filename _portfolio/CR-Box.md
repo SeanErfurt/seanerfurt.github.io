@@ -1,14 +1,14 @@
 ---
-title: "CR-Box"
-excerpt: "The solution to my allergy problems."
+title: "Solving my allergy problems the DIY way"
+excerpt: "CR boxes are good for more than Covid-19."
 header:
   image: /assets/images/Finished_Filter.jpg
   teaser: /assets/images/Finished_Filter.jpg
 sidebar:
-  - title: "Not just good for Covid"
+  - title: "Corsi-Rosenthal (CR) Box"
     #image: http://placehold.it/350x250
     #image_alt: "logo"
-    text: "sidebar text"
+    text: "An effective, low-cost DIY air purifier"
   #- title: "Second Heading"
   #  text: "Longer Description"
 gallery:
@@ -23,4 +23,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="A paperclip jumps the PS-ON and GND leads together, allowing the PC power supply to turn on without a motherboard signal, and power the case fans via Molex" %}
+
+[Instructions from the Corsi-Rosenthal Foundation](https://corsirosenthalfoundation.org/instructions/)
