@@ -2,7 +2,7 @@
 title: "Gallery of Props"
 #excerpt: ""
 header:
-  image: /assets/images/IMG_4692.jpg
+  image: /assets/images/IMG_4692.JPG
   teaser: /assets/images/Props_thumb.jpg
 sidebar:
   - title: "Props"
